@@ -17,10 +17,10 @@ class Main {
     System.out.println("Welcome to Mastermind!");
     System.out.println("");
 
-    System.out.print("Enter the number of pegs <3-8>: ");
+    System.out.print("Enter the number of pegs <1-10>: ");
     int pegs = input.nextInt();
     
-    System.out.print("Enter the number of colors <1-8>: ");
+    System.out.print("Enter the number of colors <1-9>: ");
     int colors = input.nextInt();
 
     MastermindGame game = new MastermindGame(pegs, colors);
